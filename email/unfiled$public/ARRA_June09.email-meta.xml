@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Promote ARRA Training Modules</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ARRA_June09</name>
+    <style>none</style>
+    <subject>American Recovery and Reinvestment Act Training: Construction Project Compliance</subject>
+    <textOnly>Alliance for Construction Excellence
+  
+American Recovery and Reinvestment Act Training: Construction Project Compliance 
+ 
+The Alliance for Construction Excellence (ACE) proudly offers training on the American Recovery and Reinvestment Act of 2009 (ARRA), which provides Federal funding for public entity construction projects. Learn about compliance issues and examine the required action items including:
+ 
+* Contractor and subcontractor compliance with Federally-assisted construction requirements, such as Buy American, Davis Bacon and related Acts for worker protections and Civil Rights compliance
+ 
+* Public entity application of Federal contractor and subcontractor requirements
+ 
+Accurate and timely action by contractors, subcontractors and public entities is critical.  The Federal government expects full compliance and is taking significant monitoring steps. Gain insight into these Federally mandated requirements and ensure your organization is positioned to implement the ARRA funding by attending ACE’s online ARRA training and review program. In cooperation with iLinc Communications, an Arizona web-based training-solutions provider, the training is available online and is segmented into one hour pre-recorded modules and is available 24 hours a day, 7 days a week so you can review the training whenever you want! 
+
+-------------------------------------------------------------------------------------
+
+Topics
+ 
+* Buy American Act | One one-hour session
+Ed Gill | Partner | Thompson Coburn LLP |Washington, D.C. 
+The Buy American Act requires all construction, repair or maintenance projects use only iron, steel and manufactured goods produced in the United States. Review the statutory requirements, standard terms and definitions and gain an understanding of the acquisitions covered by international agreements, waiver of requirements and documenting non-compliance. | $30 per person 
+ 
+* Civil Rights Compliance | Two one-hour sessions 
+Melissa Boyles | DBE Program Manager | Valley Metro Rail, Inc. | Phoenix, AZ
+In part one, review the Americans With Disabilities Act and the Equal Employment Opportunity including what’s entailed, what it means to your organization and where you can find additional information.
+
+In part two, examine the Disadvantaged Business Enterprise (DBE) Participation and Environmental Justice requirements of the ARRA. Discover what you need to know to ensure compliance, including setting and attaining goals, documentation and monitoring. |  $60 per person 
+ 
+( Davis Bacon Act and Related Acts (Worker Protection) | Two one-hour sessions
+Zeke Arvizu | Compliance and Diversity Representative | Sundt Construction, Inc. | Tempe, Arizona 
+In part one, review the Davis Bacon and related Acts, including the coverage and application to Federally-assisted projects. Explore “prevailing wage and fringe benefits,” the Copeland “Anti-kickback” Act, Contract Work Hours and Safety Standards Act (CWHSSA) and review background information on Fair Labor Standards Act (FLSA) and the Miller Act, including surety bond requirements.
+
+ In part two, explore the compliance principles of the Davis Bacon and related Acts, completing certified payroll reports and examine investigations including issues that prompt investigation and what may happen before and after an investigation. | $60 per person 
+
+-------------------------------------------------------------------------------------  
+  
+ Don&apos;t miss this opportunity to learn from industry leaders and ensure your organization understands the requirements of the ARRA!
+ If you’re not already a member of ACE and would like membership information, visit our web site at construction.asu.edu/ace , call us at (480) 965-4246 or email us at ace.asu@asu.edu</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Membership_Type__c</field>
+    </columns>
+    <columns>
+        <field>PHONE1</field>
+    </columns>
+    <columns>
+        <field>Account.Member_End_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Membership_Contact__c</field>
+    </columns>
+    <description>Current organizational members, with end date. Combine with individual report for full list.</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.npe01__SYSTEMIsIndividual__c</column>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Current_Member__c</column>
+            <operator>equals</operator>
+            <value>Yes</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>kraut-ACE Members 2</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- Downloads --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+    </fields><fields>
+        <help><!-- Indicates who made the download --></help>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Downloads --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Download Date --></label>
+        <name>Download_Date__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Download</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Downloads</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Download Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

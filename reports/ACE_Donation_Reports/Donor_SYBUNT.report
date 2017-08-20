@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>PHONE1</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.First_Donation_Date__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Last_Donation_Date__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Contact.Total_Donated__c</field>
+    </columns>
+    <description>Individual donors who gave some year but not this year</description>
+    <filter>
+        <criteriaItems>
+            <column>Contact.Total_Donated__c</column>
+            <operator>greaterThan</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Last_Donation_Date__c</column>
+            <operator>notEqual</operator>
+            <value>THIS_YEAR</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>Individual donor SYBUNT report</name>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Accounting Code --></label>
+        <name>Accounting_Code__c</name>
+    </fields><fields>
+        <label><!-- Check Date --></label>
+        <name>Check_Date__c</name>
+    </fields><fields>
+        <label><!-- Check Number/Transaction ID --></label>
+        <name>Check_Number_Transaction_ID__c</name>
+    </fields><fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Contact) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Credit Card --></label>
+        <name>Credit_Card__c</name>
+        <picklistValues>
+            <masterLabel>Amex</masterLabel>
+            <translation><!-- Amex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasterCard</masterLabel>
+            <translation><!-- MasterCard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa</masterLabel>
+            <translation><!-- Visa --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields><fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields><fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Referral</masterLabel>
+            <translation><!-- Partner Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Inquiry</masterLabel>
+            <translation><!-- Phone Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased List</masterLabel>
+            <translation><!-- Purchased List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Pull the ID of the Membership Contact on the Account record. --></help>
+        <label><!-- Membership Contact ID --></label>
+        <name>Membership_Contact_ID__c</name>
+    </fields><fields>
+        <label><!-- Membership End Date --></label>
+        <name>Membership_End_Date__c</name>
+    </fields><fields>
+        <label><!-- Membership Start Date --></label>
+        <name>Membership_Start_Date__c</name>
+    </fields><fields>
+        <label><!-- Paid Date --></label>
+        <name>Paid_Date__c</name>
+    </fields><fields>
+        <label><!-- Payment Type --></label>
+        <name>Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cash/Check</masterLabel>
+            <translation><!-- Cash/Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card</masterLabel>
+            <translation><!-- Credit Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic Check</masterLabel>
+            <translation><!-- Electronic Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock</masterLabel>
+            <translation><!-- Stock --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Pull the ID of the Primary Contact on the Account record. --></help>
+        <label><!-- Primary Contact ID --></label>
+        <name>Primary_Contact_ID__c</name>
+    </fields><fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledged</masterLabel>
+            <translation><!-- Pledged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation><!-- Posted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation><!-- Prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Withdrawn</masterLabel>
+            <translation><!-- Withdrawn --></translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>BIM Breakfast Sponsor</masterLabel>
+            <translation><!-- BIM Breakfast Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIM Lunch Sponsor</masterLabel>
+            <translation><!-- BIM Lunch Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIM Mentor - $1,500</masterLabel>
+            <translation><!-- BIM Mentor - $1,500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIM Program Friend</masterLabel>
+            <translation><!-- BIM Program Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIM Program Sponsor</masterLabel>
+            <translation><!-- BIM Program Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DBE Individual</masterLabel>
+            <translation><!-- DBE Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EAB</masterLabel>
+            <translation><!-- EAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf - Foursome</masterLabel>
+            <translation><!-- Golf - Foursome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf - Individual</masterLabel>
+            <translation><!-- Golf - Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf - Major Foursome</masterLabel>
+            <translation><!-- Golf - Major Foursome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf - Title</masterLabel>
+            <translation><!-- Golf - Title --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government/Public Agency</masterLabel>
+            <translation><!-- Government/Public Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Booth</masterLabel>
+            <translation><!-- Program - Booth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Breakfast</masterLabel>
+            <translation><!-- Program - Breakfast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Breaks</masterLabel>
+            <translation><!-- Program - Breaks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Bronze</masterLabel>
+            <translation><!-- Program - Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Friend</masterLabel>
+            <translation><!-- Program - Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Gold</masterLabel>
+            <translation><!-- Program - Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Individual</masterLabel>
+            <translation><!-- Program - Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Lunch</masterLabel>
+            <translation><!-- Program - Lunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Materials</masterLabel>
+            <translation><!-- Program - Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Platinum</masterLabel>
+            <translation><!-- Program - Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Reception</masterLabel>
+            <translation><!-- Program - Reception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program - Silver</masterLabel>
+            <translation><!-- Program - Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reception - Bronze</masterLabel>
+            <translation><!-- Reception - Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reception - Gold</masterLabel>
+            <translation><!-- Reception - Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reception - Individual</masterLabel>
+            <translation><!-- Reception - Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reception - Silver</masterLabel>
+            <translation><!-- Reception - Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustaining</masterLabel>
+            <translation><!-- Sustaining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Task Force Sponsor</masterLabel>
+            <translation><!-- Task Force Sponsor --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- attendees --></label>
+        <name>attendees__c</name>
+    </fields><fields>
+        <label><!-- Recurring Donation --></label>
+        <name>npe03__Recurring_Donation__c</name>
+        <relationshipLabel><!-- Donations --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Current Generator(s) --></label>
+        <name>npo02__CurrentGenerators__c</name>
+    </fields><fields>
+        <label><!-- Delivery/Installation Status --></label>
+        <name>npo02__DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation><!-- In progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation><!-- Yet to begin --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Main Competitor(s) --></label>
+        <name>npo02__MainCompetitors__c</name>
+    </fields><fields>
+        <label><!-- Order Number --></label>
+        <name>npo02__OrderNumber__c</name>
+    </fields><fields>
+        <label><!-- Tracking Number --></label>
+        <name>npo02__TrackingNumber__c</name>
+    </fields><layouts>
+        <layout>Event Registration</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Individual Donation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Individual Membership Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Individual Sponsorship</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Organization Donation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Organization Membership Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Membership Information --></label>
+            <section>Membership Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Organization Sponsorship</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Program Registration</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Purchase Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Task Force Registration</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- EAB Membership --></label>
+        <name>EAB_Membership</name>
+    </recordTypes><recordTypes>
+        <label><!-- Event Registration --></label>
+        <name>Event_Registration</name>
+    </recordTypes><recordTypes>
+        <label><!-- Event Sponsorship Individual --></label>
+        <name>Event_Sponsorship_Individual</name>
+    </recordTypes><recordTypes>
+        <label><!-- Event Sponsorship Organizational --></label>
+        <name>Event_Sponsorship_Organizational</name>
+    </recordTypes><recordTypes>
+        <label><!-- Grant --></label>
+        <name>Grant</name>
+    </recordTypes><recordTypes>
+        <label><!-- Individual Donation --></label>
+        <name>IndividualDonation</name>
+    </recordTypes><recordTypes>
+        <label><!-- Individual Membership --></label>
+        <name>Individual_Membership</name>
+    </recordTypes><recordTypes>
+        <label><!-- Major Gift --></label>
+        <name>MajorGift</name>
+    </recordTypes><recordTypes>
+        <label><!-- Matching Donation --></label>
+        <name>MatchingDonation</name>
+    </recordTypes><recordTypes>
+        <label><!-- Organization Donation --></label>
+        <name>Organization_Donation</name>
+    </recordTypes><recordTypes>
+        <label><!-- Organizational Membership --></label>
+        <name>Organizational_Membership</name>
+    </recordTypes><recordTypes>
+        <label><!-- Program Registration --></label>
+        <name>Program_Registration</name>
+    </recordTypes><recordTypes>
+        <label><!-- Program Sponsorship Individual --></label>
+        <name>Program_Sponsorship_Individual</name>
+    </recordTypes><recordTypes>
+        <label><!-- Program Sponsorship Organizational --></label>
+        <name>Program_Sponsorship_Organizational</name>
+    </recordTypes><recordTypes>
+        <label><!-- Purchase --></label>
+        <name>Purchase</name>
+    </recordTypes><recordTypes>
+        <label><!-- Task Force Registration Individual --></label>
+        <name>Task_Force_Registration_Individual</name>
+    </recordTypes><recordTypes>
+        <label><!-- Task Force Sponsorship Organizational --></label>
+        <name>Task_Force_Sponsorship_Organizational</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- Please enter an Accounting Code --></errorMessage>
+        <name>Require_Accounting_Code</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please indicate the type of credit card --></errorMessage>
+        <name>Require_Credit_Card_Type</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please provide a Payment Type --></errorMessage>
+        <name>Require_Payment_Type</name>
+    </validationRules><webLinks>
+        <label><!-- New_Donation --></label>
+        <name>New_Donation</name>
+    </webLinks><webLinks>
+        <label><!-- New_EAB --></label>
+        <name>New_EAB</name>
+    </webLinks><webLinks>
+        <label><!-- New_Event_Spons_Individual --></label>
+        <name>New_Event_Spons_Individual</name>
+    </webLinks><webLinks>
+        <label><!-- New_Event_Sponsorship_Org --></label>
+        <name>New_Event_Sponsorship_Org</name>
+    </webLinks><webLinks>
+        <label><!-- New_Ind_Membership --></label>
+        <name>New_Ind_Membership</name>
+    </webLinks><webLinks>
+        <label><!-- New_Membership --></label>
+        <name>New_Membership</name>
+    </webLinks><webLinks>
+        <label><!-- New_Organization_Donation --></label>
+        <name>New_Organization_Donation</name>
+    </webLinks><webLinks>
+        <label><!-- New_Program_Spons --></label>
+        <name>New_Program_Spons</name>
+    </webLinks><webLinks>
+        <label><!-- New_Program_Spons_Organizational --></label>
+        <name>New_Program_Spons_Organizational</name>
+    </webLinks><webLinks>
+        <label><!-- New_Purchase --></label>
+        <name>New_Purchase</name>
+    </webLinks><webLinks>
+        <label><!-- New_Registration --></label>
+        <name>New_Registration</name>
+    </webLinks><webLinks>
+        <label><!-- New_Task_Force_Reg --></label>
+        <name>New_Task_Force_Reg</name>
+    </webLinks><webLinks>
+        <label><!-- New_Task_Force_Spons --></label>
+        <name>New_Task_Force_Spons</name>
+    </webLinks><webLinks>
+        <label><!-- Add_Matching_Donation --></label>
+        <name>npe01__Add_Matching_Donation</name>
+    </webLinks><webLinks>
+        <label><!-- New_Contact_Donation --></label>
+        <name>npe01__New_Contact_Donation</name>
+    </webLinks><webLinks>
+        <label><!-- New_Organization_Donation --></label>
+        <name>npe01__New_Organization_Donation</name>
+    </webLinks></CustomObjectTranslation>

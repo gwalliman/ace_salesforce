@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Details --></label>
+        <name>Details__c</name>
+    </fields><fields>
+        <label><!-- Download --></label>
+        <name>Download__c</name>
+        <relationshipLabel><!-- Files --></relationshipLabel>
+    </fields><fields>
+        <label><!-- File description --></label>
+        <name>File_description__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>File</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Files</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

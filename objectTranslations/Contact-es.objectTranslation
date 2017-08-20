@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Asst. Email --></label>
+        <name>Asst_Email__c</name>
+    </fields><fields>
+        <label><!-- Company Name (text) --></label>
+        <name>Company_Name_text__c</name>
+    </fields><fields>
+        <label><!-- Current Exec. Member? --></label>
+        <name>Current_Exec_Member__c</name>
+    </fields><fields>
+        <label><!-- Current Ind. Member? --></label>
+        <name>Current_Ind_Member__c</name>
+    </fields><fields>
+        <label><!-- Current Org. Member? --></label>
+        <name>Current_Org_Member__c</name>
+    </fields><fields>
+        <help><!-- Indication if the contact is the donor contact --></help>
+        <label><!-- Donor Contact --></label>
+        <name>Donor_Contact__c</name>
+    </fields><fields>
+        <help><!-- Check this box if the contact is a EAB Emeritus --></help>
+        <label><!-- EAB Emeritus --></label>
+        <name>EAB_Emeritus__c</name>
+    </fields><fields>
+        <help><!-- Calculates the end date of the last Executive Advisory Board membership --></help>
+        <label><!-- Exec. Member End Date --></label>
+        <name>Exec_Member_End_Date__c</name>
+    </fields><fields>
+        <help><!-- Calculates the date of the first donation --></help>
+        <label><!-- First Donation Date --></label>
+        <name>First_Donation_Date__c</name>
+    </fields><fields>
+        <label><!-- ID/Status --></label>
+        <name>ID_Status__c</name>
+    </fields><fields>
+        <help><!-- Calculates the end date of the last Individual membership --></help>
+        <label><!-- Ind. Member End Date --></label>
+        <name>Ind_Member_End_Date__c</name>
+    </fields><fields>
+        <help><!-- Calculates the date of the last donation --></help>
+        <label><!-- Last Donation Date --></label>
+        <name>Last_Donation_Date__c</name>
+    </fields><fields>
+        <help><!-- Indicates the last campaign participation date (using campaign members) --></help>
+        <label><!-- Last Participation Date --></label>
+        <name>Last_Participation_Date__c</name>
+    </fields><fields>
+        <help><!-- Indicates the date the Contact last purchased a registration for a program, workshop, event --></help>
+        <label><!-- Last Registration Date --></label>
+        <name>Last_Registration_Date__c</name>
+    </fields><fields>
+        <label><!-- Last Transaction --></label>
+        <name>Last_Transaction__c</name>
+    </fields><fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Referral</masterLabel>
+            <translation><!-- Partner Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Inquiry</masterLabel>
+            <translation><!-- Phone Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased List</masterLabel>
+            <translation><!-- Purchased List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Check this box if this contact is a emeritus member --></help>
+        <label><!-- Member Emeritus --></label>
+        <name>Member_Emeritus__c</name>
+    </fields><fields>
+        <help><!-- Indicate if the contact is the membership contact --></help>
+        <label><!-- Membership Contact --></label>
+        <name>Membership_Contact__c</name>
+    </fields><fields>
+        <label><!-- Middle Name --></label>
+        <name>Middle_Name__c</name>
+    </fields><fields>
+        <help><!-- If the Organization is a current member, displays the membership type --></help>
+        <label><!-- Org. Membership Type --></label>
+        <name>Org_Membership_Type__c</name>
+    </fields><fields>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+    </fields><fields>
+        <label><!-- Spouse --></label>
+        <name>Spouse__c</name>
+    </fields><fields>
+        <label><!-- Suffix --></label>
+        <name>Suffix__c</name>
+    </fields><fields>
+        <label><!-- TempText --></label>
+        <name>TempText__c</name>
+    </fields><fields>
+        <help><!-- Calculates the lifetime amount donated --></help>
+        <label><!-- Total Donated --></label>
+        <name>Total_Donated__c</name>
+    </fields><fields>
+        <label><!-- Update Donor Contact --></label>
+        <name>Update_Donor_Contact__c</name>
+    </fields><fields>
+        <label><!-- Update Membership Contact --></label>
+        <name>Update_Membership_Contact__c</name>
+    </fields><fields>
+        <label><!-- Website --></label>
+        <name>Website__c</name>
+    </fields><fields>
+        <label><!-- Alternate Email --></label>
+        <name>npe01__AlternateEmail__c</name>
+    </fields><fields>
+        <label><!-- Personal Email --></label>
+        <name>npe01__HomeEmail__c</name>
+    </fields><fields>
+        <label><!-- Home Address --></label>
+        <name>npe01__Home_Address__c</name>
+    </fields><fields>
+        <label><!-- Last Transaction Date --></label>
+        <name>npe01__Last_Donation_Date__c</name>
+    </fields><fields>
+        <label><!-- Lifetime Transaction Total --></label>
+        <name>npe01__Lifetime_Giving_History_Amount__c</name>
+    </fields><fields>
+        <label><!-- Organization Type --></label>
+        <name>npe01__Organization_Type__c</name>
+    </fields><fields>
+        <label><!-- Other Address --></label>
+        <name>npe01__Other_Address__c</name>
+    </fields><fields>
+        <label><!-- Preferred Phone --></label>
+        <name>npe01__PreferredPhone__c</name>
+        <picklistValues>
+            <masterLabel>Assistant</masterLabel>
+            <translation><!-- Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation>Móvil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>Laboral</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Preferred Email --></label>
+        <name>npe01__Preferred_Email__c</name>
+        <picklistValues>
+            <masterLabel>Alternate</masterLabel>
+            <translation>Alternativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assistant</masterLabel>
+            <translation><!-- Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>Laboral</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Primary Address Type --></label>
+        <name>npe01__Primary_Address_Type__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>Laboral</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Private --></label>
+        <name>npe01__Private__c</name>
+    </fields><fields>
+        <label><!-- Secondary Address Type --></label>
+        <name>npe01__Secondary_Address_Type__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>Particular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation>Laboral</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- _SYSTEM: ACCOUNT PROCESSOR --></label>
+        <name>npe01__SystemAccountProcessor__c</name>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One-to-One</masterLabel>
+            <translation><!-- One-to-One --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- _SYSTEM: IsIndividual - DEPRECATED --></label>
+        <name>npe01__SystemIsIndividual__c</name>
+    </fields><fields>
+        <help>Muestra el tipo de Organización con el que este Contacto está relacionado</help>
+        <label><!-- Type of Account --></label>
+        <name>npe01__Type_of_Account__c</name>
+    </fields><fields>
+        <label><!-- Work Email --></label>
+        <name>npe01__WorkEmail__c</name>
+    </fields><fields>
+        <label><!-- Work Phone --></label>
+        <name>npe01__WorkPhone__c</name>
+    </fields><fields>
+        <label><!-- Work Address --></label>
+        <name>npe01__Work_Address__c</name>
+    </fields><fields>
+        <label><!-- Household Mailing Address --></label>
+        <name>npo02__Formula_HouseholdMailingAddress__c</name>
+    </fields><fields>
+        <label><!-- Household Phone --></label>
+        <name>npo02__Formula_HouseholdPhone__c</name>
+    </fields><fields>
+        <label><!-- Household --></label>
+        <name>npo02__Household__c</name>
+        <relationshipLabel><!-- Household Members --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Languages --></label>
+        <name>npo02__Languages__c</name>
+    </fields><fields>
+        <label><!-- Level --></label>
+        <name>npo02__Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- _SYSTEM: HOUSEHOLD PROCESSOR --></label>
+        <name>npo02__SystemHouseholdProcessor__c</name>
+        <picklistValues>
+            <masterLabel>All Individual Contacts</masterLabel>
+            <translation><!-- All Individual Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>All New or Edited Contacts</masterLabel>
+            <translation><!-- All New or Edited Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Contacts</masterLabel>
+            <translation><!-- No Contacts --></translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Assistant Information --></label>
+            <section>Assistant Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Details --></label>
+            <section>Contact Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Information --></label>
+            <section>Transaction Information</section>
+        </sections>
+        <sections>
+            <label><!-- iLinc Personal Meeting Room --></label>
+            <section>iLinc Personal Meeting Room</section>
+        </sections>
+    </layouts><layouts>
+        <layout>iLinc Sample Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- iLinc Personal Meeting Room --></label>
+            <section>iLinc Personal Meeting Room</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage><!-- Make sure the contact is not marked as Primary Contact, Membership Contact or Membership Contact before changing the Organization Name field --></errorMessage>
+        <name>Change_Organization</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please select a Preferred Email --></errorMessage>
+        <name>Contact_Preferred_Email</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please select a Preferred Phone --></errorMessage>
+        <name>Contact_Preferred_Phone</name>
+    </validationRules><webLinks>
+        <label><!-- Send_Survey_Contact_Detail --></label>
+        <name>TIMBASURVEYS__Send_Survey_Contact_Detail</name>
+    </webLinks><webLinks>
+        <label><!-- send_survey --></label>
+        <name>TIMBASURVEYS__send_survey</name>
+    </webLinks></CustomObjectTranslation>

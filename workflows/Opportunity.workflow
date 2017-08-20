@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata"><alerts>
+        <fullName>Send_Individual_Membership_Renewal_Email</fullName>
+        <description>Send Individual Membership Renewal Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>gary.l.aller@asu.edu</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ACE_Email_Templates/Individual_Membership_Renewal_Notice</template>
+    </alerts><alerts>
+        <fullName>Send_Membership_Renewal_notification</fullName>
+        <description>Send Organizational Membership Renewal notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ACE_Email_Templates/Organizational_Membership_Renewal_Notice</template>
+    </alerts><alerts>
+        <fullName>Welcome_Email</fullName>
+        <description>Welcome Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <recipient>gary.aller@asu.edu</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>gary.l.aller@asu.edu</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>ACE_Email_Templates/Demo_Template</template>
+    </alerts><rules>
+        <fullName>Send Individual Membership Renewal Notice</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Membership_End_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>EAB Membership,Individual Membership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Invoice_Number__c</field>
+            <operation>equals</operation>
+            <value>12345</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Send_Individual_Membership_Renewal_Email</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.Membership_End_Date__c</offsetFromField>
+            <timeLength>-45</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules><rules>
+        <fullName>Send Organizational Membership Renewal Notice</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Membership_End_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Organizational Membership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Invoice_Number__c</field>
+            <operation>equals</operation>
+            <value>12345</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Send_Membership_Renewal_notification</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.Membership_End_Date__c</offsetFromField>
+            <timeLength>-45</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules></Workflow>

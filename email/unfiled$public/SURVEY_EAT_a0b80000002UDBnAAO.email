@@ -1,0 +1,3 @@
+Please complete this survey at: 
+
+ {!IF(Contact.Id != null,'http://garyaller.force.com/TIMBASURVEYS__Survey?id=a0b80000002UDBnAAO&cId='+Contact.Id,'')}{!IF(Receiving_User.Id != null,'http://garyaller.force.com/TIMBASURVEYS__Survey?id=a0b80000002UDBnAAO&cId='+Receiving_User.Id,'')}

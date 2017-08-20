@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <name>AccountSource</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Referral</masterLabel>
+            <translation><!-- Partner Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Inquiry</masterLabel>
+            <translation><!-- Phone Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased List</masterLabel>
+            <translation><!-- Purchased List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Current Member? --></label>
+        <name>Current_Member__c</name>
+    </fields><fields>
+        <help><!-- Indicates who the Donor Contact is for this Organization --></help>
+        <label><!-- Donor Contact --></label>
+        <name>Donor_Contact__c</name>
+        <relationshipLabel><!-- Accounts (Donor Contact) --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Calculates the date of the last donation --></help>
+        <label><!-- First Donation Date --></label>
+        <name>First_Donation_Date__c</name>
+    </fields><fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation><!-- Apparel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation><!-- Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation><!-- Biotechnology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation><!-- Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation><!-- Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation><!-- Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation><!-- Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation><!-- Food &amp; Beverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation><!-- Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation><!-- Hospitality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation><!-- Machinery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation><!-- Not For Profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation><!-- Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation><!-- Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation><!-- Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Calculates the date of the last donation --></help>
+        <label><!-- Last Donation Date --></label>
+        <name>Last_Donation_Date__c</name>
+    </fields><fields>
+        <label><!-- Latest Membership Type Code --></label>
+        <name>Latest_Membership_Type_Code__c</name>
+    </fields><fields>
+        <label><!-- Latest Membership Type --></label>
+        <name>Latest_Membership_Type__c</name>
+    </fields><fields>
+        <label><!-- Member End Date --></label>
+        <name>Member_End_Date__c</name>
+    </fields><fields>
+        <help><!-- Indicates who the Membership Contact is for this Organization --></help>
+        <label><!-- Membership Contact --></label>
+        <name>Membership_Contact__c</name>
+        <relationshipLabel><!-- Accounts (Membership Contact) --></relationshipLabel>
+    </fields><fields>
+        <help><!-- If the Organization is a current member, this field displays the membership type --></help>
+        <label><!-- Membership Type --></label>
+        <name>Membership_Type__c</name>
+    </fields><fields>
+        <name>Ownership</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation><!-- Subsidiary --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Parent Current Member? --></label>
+        <name>Parent_Current_Member__c</name>
+    </fields><fields>
+        <help><!-- If the parent organization is a current member, displays the membership type --></help>
+        <label><!-- Parent Membership Type --></label>
+        <name>Parent_Membership_Type__c</name>
+    </fields><fields>
+        <help><!-- Indicates who the Primary Contact is for this Organization --></help>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+        <relationshipLabel><!-- Accounts (Primary Contact) --></relationshipLabel>
+    </fields><fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cold</masterLabel>
+            <translation><!-- Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Sub-Type --></label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Architectural</masterLabel>
+            <translation><!-- Architectural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Architectural &amp; Engineering</masterLabel>
+            <translation><!-- Architectural &amp; Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audio / Video</masterLabel>
+            <translation><!-- Audio / Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both Vertical &amp; Horizontal</masterLabel>
+            <translation><!-- Both Vertical &amp; Horizontal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Concrete</masterLabel>
+            <translation><!-- Concrete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developer</masterLabel>
+            <translation><!-- Developer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dry Wall</masterLabel>
+            <translation><!-- Dry Wall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical</masterLabel>
+            <translation><!-- Electrical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical Supply</masterLabel>
+            <translation><!-- Electrical Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer</masterLabel>
+            <translation><!-- Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer - Civil</masterLabel>
+            <translation><!-- Engineer - Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer - Consulting</masterLabel>
+            <translation><!-- Engineer - Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer - Electrical</masterLabel>
+            <translation><!-- Engineer - Electrical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer - Mechanical</masterLabel>
+            <translation><!-- Engineer - Mechanical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineer - Structural</masterLabel>
+            <translation><!-- Engineer - Structural --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Protection</masterLabel>
+            <translation><!-- Fire Protection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas &amp; Chemical Supply</masterLabel>
+            <translation><!-- Gas &amp; Chemical Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glazing</masterLabel>
+            <translation><!-- Glazing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horizontal</masterLabel>
+            <translation><!-- Horizontal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information &amp; Technology &amp; Project Controls</masterLabel>
+            <translation><!-- Information &amp; Technology &amp; Project Controls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mechanical</masterLabel>
+            <translation><!-- Mechanical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mechanical Equipment</masterLabel>
+            <translation><!-- Mechanical Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public - City</masterLabel>
+            <translation><!-- Public - City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public - County</masterLabel>
+            <translation><!-- Public - County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public - Higher Ed</masterLabel>
+            <translation><!-- Public - Higher Ed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public - K12</masterLabel>
+            <translation><!-- Public - K12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public - State</masterLabel>
+            <translation><!-- Public - State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewable Energy</masterLabel>
+            <translation><!-- Renewable Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewable Financing</masterLabel>
+            <translation><!-- Renewable Financing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Roofing</masterLabel>
+            <translation><!-- Roofing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solar</masterLabel>
+            <translation><!-- Solar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steel Fabrication</masterLabel>
+            <translation><!-- Steel Fabrication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Structural Steel</masterLabel>
+            <translation><!-- Structural Steel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Structural Supply</masterLabel>
+            <translation><!-- Structural Supply --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Surety</masterLabel>
+            <translation><!-- Surety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tribal</masterLabel>
+            <translation><!-- Tribal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vertical</masterLabel>
+            <translation><!-- Vertical --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- TempText --></label>
+        <name>TempText__c</name>
+    </fields><fields>
+        <help><!-- Calculates the lifetime donated amount --></help>
+        <label><!-- Total Donated --></label>
+        <name>Total_Donated__c</name>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Architect / Engineer</masterLabel>
+            <translation><!-- Architect / Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate</masterLabel>
+            <translation><!-- Associate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Contractor</masterLabel>
+            <translation><!-- General Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager / Construction Manager</masterLabel>
+            <translation><!-- Project Manager / Construction Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect</masterLabel>
+            <translation><!-- Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcontractor</masterLabel>
+            <translation><!-- Subcontractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor / Supplier</masterLabel>
+            <translation><!-- Vendor / Supplier --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Update Donor Contact --></label>
+        <name>Update_Donor_Contact__c</name>
+    </fields><fields>
+        <label><!-- Update Membership Contact --></label>
+        <name>Update_Membership_Contact__c</name>
+    </fields><fields>
+        <label><!-- First Donation Date --></label>
+        <name>npe01__FirstDonationDate__c</name>
+    </fields><fields>
+        <label><!-- Last Donation Date --></label>
+        <name>npe01__LastDonationDate__c</name>
+    </fields><fields>
+        <label><!-- Lifetime Donation History (Amount) --></label>
+        <name>npe01__LifetimeDonationHistory_Amount__c</name>
+    </fields><fields>
+        <label><!-- Lifetime Donation History (Number) --></label>
+        <name>npe01__LifetimeDonationHistory_Number__c</name>
+    </fields><fields>
+        <label><!-- _SYSTEM: One2OneContact --></label>
+        <name>npe01__One2OneContact__c</name>
+        <relationshipLabel><!-- Account --></relationshipLabel>
+    </fields><fields>
+        <label><!-- _SYSTEM: IsIndividual --></label>
+        <name>npe01__SYSTEMIsIndividual__c</name>
+    </fields><fields>
+        <help><!-- System field: do not use or change. --></help>
+        <label><!-- _SYSTEM: AccountType --></label>
+        <name>npe01__SYSTEM_AccountType__c</name>
+    </fields><layouts>
+        <layout>Organization Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Information --></label>
+            <section>Transaction Information</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Individual --></label>
+        <name>Individual</name>
+    </recordTypes><webLinks>
+        <label><!-- Update_Contact_Addresses --></label>
+        <name>x2uca__Update_Contact_Addresses</name>
+    </webLinks><workflowTasks>
+        <name>Review_new_Organization_record</name>
+        <subject><!-- Review new Organization record --></subject>
+    </workflowTasks></CustomObjectTranslation>

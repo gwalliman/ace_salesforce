@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This is the default email alert template invitation to the Survey: Job Order Contracting April 28, 2011</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>[ Send using Workflow ] Job Order Contracting April 28, 2011</name>
+    <style>none</style>
+    <subject>Please complete this survey: Job Order Contracting April 28, 2011</subject>
+    <type>text</type>
+</EmailTemplate>
